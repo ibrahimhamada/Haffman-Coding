@@ -5,9 +5,7 @@ My Project of the Information Theory and Coding Course Offered in Fall 2022 @ Ze
 In this project, I implemented the Haffman Coding Algorithm.
 
 
-## Algorithm Steps:
-
-A) Video Encoder 
+## Implementation Steps:
 
             1) Designing a Huffman code for an English Language character set.
             2) Calculating the average length of the code and compare it to the entropy of the English Language.
@@ -15,15 +13,7 @@ A) Video Encoder
             4) Designing a Huffman code depending on the frequency of occurrence of English letters in the text file given.  
             5) Comparing the total length of the encoded bits in both cases. 
 
+## The frequencies for English Language characters were obtained from: 
+https://pi.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html 
 
-B) Video Decoder 
-
-            1) JPEG Decoding of the I-frame. 
-                 a. Huffman Decoding is applied on the recieved vector   
-                 b. Run Length Decoding is applied on the restored symbols 
-                 c. Decoded Vector is divided into (1x64) blocks and then each bloch is converted to 2D 
-                 d. Each 8x8 Block is multiplied by the Low Quantization Table 
-                 e. IDCT is applied on the 8x8 Blocks 
-                 f. Combine 8x8 pixel groups into a single image and construct the frame.
-            2) Entropy Decoding of the motion vectors of macro blocks. 
-            3) Reconstruct the macro blocks to produce the decoded frames. 
+![image](https://user-images.githubusercontent.com/58476343/220161644-982e4b8d-f837-44a1-afc0-c5c10a4e47d5.png)
