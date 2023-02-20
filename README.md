@@ -9,10 +9,11 @@ In this project, I implemented the Haffman Coding Algorithm.
 
 A) Video Encoder 
 
-            1) Designing a Huffman code for an English Language character set by Calculating the average length of the code and compare it to the entropy of the English Language.
-            2) Encoding a text file that contains an English paragraph (It will be given under a name Test1.txt) using the constructed codebook. 
-            3) Designing a Huffman code depending on the frequency of occurrence of English letters in the text file given.  
-            4) Comparing the total length of the encoded bits in both cases. 
+            1) Designing a Huffman code for an English Language character set.
+            2) Calculating the average length of the code and compare it to the entropy of the English Language.
+            3) Encoding a text file that contains an English paragraph (It will be given under a name Test1.txt) using the constructed codebook. 
+            4) Designing a Huffman code depending on the frequency of occurrence of English letters in the text file given.  
+            5) Comparing the total length of the encoded bits in both cases. 
 
 
 B) Video Decoder 
